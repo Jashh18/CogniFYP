@@ -1,0 +1,74 @@
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #f3c4fb, #d9a7ff, #a18cd1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.logo {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: rgba(255,255,255,0.3);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.tabs button.active {
+  background: white;
+  color: #a18cd1;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+  color: #a18cd1;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.signup-link span {
+  font-weight: bold;
+  cursor: pointer;
+}
