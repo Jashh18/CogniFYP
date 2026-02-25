@@ -19,7 +19,7 @@ export default function ProtectedRoute({ children, allowedRole }: Props) {
 
   if (!user) return <Navigate to="/" />
 
-  if (role !== allowedRole) return <Navigate to="/" />
+  if (role && role !== allowedRole) return <Navigate to="/" />
 
   return children
 }
